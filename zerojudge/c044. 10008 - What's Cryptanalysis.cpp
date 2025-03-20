@@ -6,9 +6,11 @@
 using namespace std;
 
 bool cmp(const pair<char,int>& a,const pair<char,int>& b) {
-	return a.second > b.second;
 	if (a.second == b.second) {
 		return a.first < b.first;
+	}
+	else {
+		return a.second > b.second;
 	}
 }
 int main()
