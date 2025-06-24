@@ -1,0 +1,17 @@
+#include <iostream>
+#include <algorithm>
+#include <set>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    cin >> a;
+    for (int b = 1; b < a + 1; b++) {
+        cout << string(a-b, '_');
+        cout << string(b, '*')<<"\n";
+
+    }
+
+}
