@@ -8,10 +8,10 @@ int main()
 {
     int a;
     cin >> a;
-    for (int b = 1; b < a + 1; b++) {
-        cout << string(a-b, '_');
-        cout << string(2*(b-1) + 1, '*');
-        cout<<string(a-b,'_')<<"\n";
+    for (int i = 1; i < a + 1; i++) {
+        cout << string(a-i, '_');
+        cout << string(2*(i-1) + 1, '*');
+        cout<<string(a-i,'_')<<"\n";
     }
 
 }
