@@ -8,9 +8,9 @@ int main()
 {
     int a;
     cin >> a;
-    for (int b = 1; b < a + 1; b++) {
-        cout << string(a-b, '_');
-        cout << string(b, '*')<<"\n";
+    for (int i = 1; i < a + 1; i++) {
+        cout << string(a-i, '_');
+        cout << string(i, '*')<<"\n";
 
     }
 
